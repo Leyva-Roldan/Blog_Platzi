@@ -93,6 +93,10 @@ nav .profile-link a {
     display: grid;
     grid-template-columns: 1fr 4fr 1fr; /* se crean 3 columnas pero la columna del centro es más grande que las demás*/
     height: 100%;
+    background-image: url('https://cdn.pixabay.com/photo/2016/04/18/16/22/watercolour-1336856_960_720.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .home-main section {
     display: grid;
