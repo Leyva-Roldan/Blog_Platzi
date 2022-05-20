@@ -38,3 +38,73 @@ header .header-icons-container .icons {
 header .icons span {
     color: purple;
 }
+nav {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 90px;
+}
+nav .nav-logo-container {
+    margin-left: 50px;
+}
+nav .nav-logo-container img {
+    width: 220px;
+    margin-top: 10px;
+}
+nav .profile-link {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-right: 50px;
+}
+nav .profile-link a {
+    color: black;
+    border-bottom: 1px solid black;
+}
+
+/* mi parte */ 
+/*.home-main {
+    background-image: url('https://cdn.pixabay.com/photo/2016/04/18/16/22/watercolour-1336856_960_720.jpg');
+    background-size: cover;
+}*/
+/*.home-main section {
+    width: 100%;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}*/ 
+/*.home-main section h1 {
+    text-align: center;
+    font-size: 2.2rem;
+    text-shadow: 10px -5px 8px rgba(255,255,255,0.75);
+}*/
+/*.home-main-button {
+    color: black;
+    font-size: 25px;
+    border: 5px solid black;
+    width: 100px;
+    text-align: center;
+    margin: 0 auto;
+    background-color: #ffe0e9;
+    padding: 7px;
+}*/
+/* termina mi parte */ 
+
+/* parte del profe */ 
+.home-main {
+    display: grid;
+    grid-template-columns: 1fr 4fr 1fr; /* se crean 3 columnas pero la columna del centro es más grande que las demás*/
+    height: 100%;
+}
+.home-main section {
+    display: grid;
+    grid-column: 2;
+    justify-items: center; /* justifica los elementos*/ 
+    height: 350px;
+    margin-top: 80px;
+}
+.home-main-text {
+    font-size: 30px;
+    font-weight: 700px;
+    letter-spacing: 10px; /* espacio entre las letras*/
+    color: black;
+    text-align: center;
+}
