@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans&family=Mali:ital,wght@1,400;1,500&family=Poppins:wght@400;500;600&family=Roboto+Mono:wght@200&family=Roboto+Slab:wght@200&family=Roboto:wght@300&display=swap');
+
 body {
     margin: 0;
     padding: 0;
@@ -98,6 +100,7 @@ nav .profile-link a {
     background-repeat: no-repeat;
     background-size: cover;
 }
+
 .home-main section {
     display: grid;
     grid-column: 2;
@@ -111,4 +114,5 @@ nav .profile-link a {
     letter-spacing: 10px; /* espacio entre las letras*/
     color: black;
     text-align: center;
+    font-family: 'Roboto Mono', monospace;
 }
