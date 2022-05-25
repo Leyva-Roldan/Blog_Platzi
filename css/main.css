@@ -4,18 +4,19 @@ body {
     font-family: 'Roboto Mono', monospace;
     margin: 0;
     padding: 0;
-    position: fixed; /* se pone fixed como truco de css para que no haya scroll y el body ocupe toda la pantalla sin generar scroll*/
-    top: 0;
-    bottom: 0;
-    right: 0;
-    left: 0;
 }
 a {
     text-decoration: none;
     display: inline; /* para que se pongan de forma horizontal*/ 
     color: black;
 }
-
+.home-body {
+    position: fixed; /* se pone fixed como truco de css para que no haya scroll y el body ocupe toda la pantalla sin generar scroll*/
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
 header {
     width: 100%;
     height: 140px;
@@ -146,11 +147,20 @@ nav .profile-link a {
     grid-column: 1;
 }
 .blogs-news-img-container img {
-
+    width: 85%;
+    margin-top: 20px;
 }
 .blogs-news-info-container {
     grid-column: 2;
 }
 .blogs-news-info-container p {
     margin-bottom: 35px;
+}
+.blogs-posts-container {
+    padding: 0 50px 40px;
+}
+.blogs-posts-container h3 {
+    border-bottom: 1px solid #cdd2da;
+    padding-bottom: 20px;
+    text-align: center;
 }
