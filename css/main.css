@@ -17,6 +17,10 @@ a {
     right: 0;
     left: 0;
 }
+.grid-container {
+    max-width: 980px;
+    margin: auto; /* si hay mucho espacio, divide el espacio entre el left y el right y así centra el contenido*/
+}
 header {
     width: 100%;
     height: 140px;
