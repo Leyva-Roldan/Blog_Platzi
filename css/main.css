@@ -214,3 +214,32 @@ footer p {
 .blogpost-main-container article h1 {
     font-size: 35px;
 }
+.contact-main-container {
+    width: 100%;
+    min-height: 250px;
+    background-color: #ffe0e9;
+    text-align: center;
+    padding-bottom: 50px;
+    margin-bottom: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.contact-main-container .div-contact-main {
+    width: 49.5%;
+    height: 100%;
+    margin-top: 20px;
+}
+.div-contact-main {
+    margin: 0 auto;
+}
+.contact-main-container div a {
+    border-bottom: 1px solid black;
+    padding-bottom: 5px;
+}
+.contact-main-container .contact-left .contact-right {
+    text-align: initial;
+    margin-top: 85px;
+}
+.contact-main-container img {
+    width: 100px;
+}
